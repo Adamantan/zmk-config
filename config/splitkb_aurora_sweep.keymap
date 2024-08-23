@@ -14,6 +14,10 @@
    // tapping-term-ms = <200>;
 };
 
+&led_strip {
+    chain-length = <21>;
+};
+
 / {
 
     combos {
