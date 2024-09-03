@@ -64,7 +64,7 @@
 &kp Q       &kp W           &kp E  &kp R  &kp T    &kp Y  &kp U  &kp I     &kp O    &kp P
 &kp A       &kp S           &kp D  &kp F  &kp G    &kp H  &kp J  &kp K     &kp L    &kp BACKSPACE
 &mt LSFT Z  &kp X           &kp C  &kp V  &kp B    &kp N  &kp M  &kp CMMA  &kp DOT  &mt LSFT RET
-&sl 1       &kp LEFT_SHIFT                                                 &kp SPC  &mo 2
+&to 1       &kp LEFT_SHIFT                                                 &kp SPC  &to 0
             >;
         };
 
@@ -73,7 +73,7 @@
 &kp NUM_1  &kp NUM_2  &kp NUM_3        &kp NUM_4        &kp NUM_5     &kp PIPE       &kp ASTERISK     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NUM_0
 &kp TAB    &kp LC(S)  &kp DQT          &kp PIPE2        &kp HASH      &kp AMPERSAND  &kp EXCLAMATION  &kp LBKT              &kp RBKT               &kp DEL
 &kp ESC    &kp TILDE  &kp NON_US_BSLH  &kp NON_US_HASH  &kp TILDE2    &kp MINUS      &kp GRAVE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
-&sl 2      &kp LGUI                                                                                                         &kp RGUI               &sl 0
+&to 2      &kp LGUI                                                                                                         &kp RGUI               &to 0
             >;
         };
 
@@ -82,7 +82,7 @@
 &kp BANG  &kp ATSN   &kp HASH  &kp DLLR  &kp PRCT    &kp CRRT   &kp AMPS      &kp KMLT  &kp LPRN  &kp RPRN
 &kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN    &kp MINUS  &kp KP_EQUAL  &kp LBRC  &kp RBRC  &kp BKSP
 &kp LSFT  &kp KPLS   &kp LBKT  &kp RBKT  &kp BSLH    &kp UNDER  &kp LEFT      &kp DOWN  &kp UP    &kp RIGHT
-&sl 3     &kp LCTL                                                                      &kp SPC   &sl 1
+&to 3     &kp LCTL                                                                      &kp SPC   &to 1
             >;
         };
 
@@ -91,7 +91,7 @@
 &kp NUM_1   &kp NUM_2   &kp NUM_3   &kp NUM_4  &kp NUM_5    &trans  &trans     &trans        &trans      &trans
 &kp F1      &kp F2      &kp F3      &kp F4     &kp F5       &trans  &kp PG_UP  &kp K_VOL_UP  &kp K_MUTE  &trans
 &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &kp F6     &kp F7       &trans  &kp PG_DN  &kp K_VOL_DN  &trans      &trans
-&sl 4       &trans                                                                           &trans      &sl 2
+&to 4       &trans                                                                           &trans      &to 2
             >;
         };
 
@@ -100,7 +100,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &trans  &trans  &trans  &trans
 &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans          &trans  &trans  &trans  &trans  &trans
 &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans
-&trans        &trans                                                                            &trans  &sl 3
+&trans        &trans                                                                            &trans  &to 3
             >;
         };
     };
