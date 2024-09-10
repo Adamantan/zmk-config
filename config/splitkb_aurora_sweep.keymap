@@ -60,6 +60,30 @@
         };
     };
 
+    macros {
+        L1: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&mo 1>,
+                <&macro_press>,
+                <&rgb_ug RGB_COLOR_HSB(244,90,49)>;
+
+            label = "NEW_MACRO";
+        };
+
+        L2: L2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&mo 2>,
+                <&macro_press>,
+                <&rgb_ug RGB_COLOR_HSB(118,88,49)>;
+
+            label = "L2";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
